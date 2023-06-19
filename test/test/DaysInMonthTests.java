@@ -25,7 +25,7 @@ public class DaysInMonthTests {
     @Test
     public void UTCID02() {
        Byte expected = 0;
-       Byte result = DateTimeFunctions.DaysInMonth(Short.parseShort("-1"), Byte.parseByte("1"));
+       Byte result = DateTimeFunctions.DaysInMonth(Short.parseShort("-1"), Byte.parseByte("2"));
        assertEquals(expected, result);
     }
     

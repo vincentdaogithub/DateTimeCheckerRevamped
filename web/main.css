@@ -30,7 +30,7 @@ form div {
     width: 80%;
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
     margin: 1rem 0;
 }

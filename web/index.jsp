@@ -15,7 +15,7 @@
         <title>Date Time Checker Revamped</title>
     </head>
     <body>
-        <form action="CheckServlet" method="post">
+        <form action="Controller" method="post">
             <img src="logo_FPT.jpg" alt="FPT logo" />
             
             <h2>Date Time Checker</h2>
@@ -49,7 +49,7 @@
             </div>
             
             <div>
-                <label for="year">Day </label>
+                <label for="year">Year </label>
                 <input id="year" type="text" name="year" value="${prevYear}" />
                 <c:choose>
                     <c:when test="${invalidYearFormat}">

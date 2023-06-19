@@ -12,6 +12,12 @@ package services;
 public class DateTimeFunctions {
     
     public static final Byte DaysInMonth(Short year, Byte month) {
+//        if (year == null || month == null) {
+//            throw new NullPointerException();
+//        }
+//        if ((year < 1000 || 3000 < year) || (month < 0 ) || month > 12) {
+//            return 0;
+//        }
         switch (month) {
             case 1:
             case 3:
